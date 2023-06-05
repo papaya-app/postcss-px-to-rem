@@ -1,0 +1,54 @@
+{
+  "name": "@lingjhf/postcss-px-to-rem",
+  "version": "0.0.1",
+  "description": "postcss plugin",
+  "author": "lingjhf",
+  "license": "MIT",
+  "homepage": "https://github.com/lingjhf/postcss-px-to-rem",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lingjhf/postcss-px-to-rem"
+  },
+  "type": "module",
+  "scripts": {
+    "build": "rollup -c "
+  },
+  "files": [
+    "lib",
+    "umd",
+    "README.md",
+    "package.json"
+  ],
+  "types": "./lib/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./lib/index.d.ts",
+      "import": "./lib/index.js"
+    },
+    "./lib/*": {
+      "types": "./lib/*.d.ts",
+      "import": "./lib/*.js"
+    }
+  },
+  "keywords": [
+    "postcss",
+    "lib"
+  ],
+  "dependencies": {
+    "@types/color": "^3.0.3",
+    "color": "^4.2.3",
+    "solid-element": "^1.6.4",
+    "solid-js": "^1.6.12"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.59.5",
+    "@typescript-eslint/parser": "^5.59.5",
+    "eslint": "^8.40.0",
+    "postcss": "^8.4.21",
+    "rollup": "^3.23.1",
+    "rollup-plugin-dts": "^5.3.0",
+    "rollup-plugin-typescript2": "^0.34.1",
+    "tslib": "^2.5.3",
+    "typescript": "^5.1.3"
+  }
+}
