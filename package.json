@@ -1,6 +1,6 @@
 {
   "name": "@lingjhf/postcss-px-to-rem",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "postcss plugin",
   "author": "lingjhf",
   "license": "MIT",
