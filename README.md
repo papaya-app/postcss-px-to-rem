@@ -17,7 +17,9 @@ import { PostcssPxToRem } from '@lingjhf/postcss-px-to-rem'
 
 export const config = {
   plugins: [
-    PostcssPxToRem({})
+    PostcssPxToRem({
+      baseFontSize: 16 //默认16px
+    })
   ]
 }
 ```

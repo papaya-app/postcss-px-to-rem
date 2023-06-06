@@ -1,6 +1,6 @@
 {
   "name": "@lingjhf/postcss-px-to-rem",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "postcss plugin",
   "author": "lingjhf",
   "license": "MIT",
@@ -32,7 +32,7 @@
   },
   "keywords": [
     "postcss",
-    "lib"
+    "plugin"
   ],
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.59.5",
