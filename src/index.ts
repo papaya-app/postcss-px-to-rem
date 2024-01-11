@@ -1,6 +1,6 @@
 import type { AcceptedPlugin } from 'postcss'
 
-export interface PxtoRemOptions {
+export interface PxToRemOptions {
 
   /**
    * 1rem = n px
@@ -9,7 +9,7 @@ export interface PxtoRemOptions {
   baseFontSize?: number
 }
 
-export function PostcssPxToRem(options: PxtoRemOptions): AcceptedPlugin {
+export function PostcssPxToRem(options: PxToRemOptions): AcceptedPlugin {
   const pxRE = /(-?[\.\d]+)px/g
   const { baseFontSize = 16 } = options
   return {

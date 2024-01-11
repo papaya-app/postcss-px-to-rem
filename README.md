@@ -5,15 +5,15 @@
 ## 安装
 
 ```bash
-pnpm add -D @lingjhf/postcss-px-to-rem 
+pnpm add -D @papaya-app/postcss-px-to-rem 
 # with npm
-npm install -D @lingjhf/postcss-px-to-rem
+npm install -D @papaya-app/postcss-px-to-rem
 ```
 
 ## 使用
 
 ```js
-import { PostcssPxToRem } from '@lingjhf/postcss-px-to-rem'
+import { PostcssPxToRem } from '@papaya-app/postcss-px-to-rem'
 
 export const config = {
   plugins: [
